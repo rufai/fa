@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sendcash</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="./home.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <section id="container">
+        <div><p class="data_background"> 1USD = 572.21NGN</p></div>
+
+        <form>
+            <div id="firstDiv" class="firstDiv data_background" >
+                <label>You send</label>
+                <input type="text" id="source_currency"  value="100" required autofocus>
+                <select>
+                    <option>USD</option>
+                    <option>NGN</option>
+                    <option>GBP</option>
+                    <option>BTC</option>
+                    <option>USDC</option>
+                </select>
+            </div>
+            <div class="data_background">
+                <label>Recipient gets</label>
+                <input type="text" id="destination_currency"  value="57, 594" required>
+                <select>
+               
+                    <option>NGN</option>
+                    <option>USD</option>
+                    <option>GBP</option>
+                    <option>BTC</option>
+                    <option>USDC</option>
+                </select>
+            </div>
+            <hr />            
+            <div class="data_background" style="background-color: white;">
+                <label>Destination</label>
+                <select>
+                    <option>Nigeria</option>
+                    <option>USA</option>
+                    <option>United Kingdom</option>
+                    <option> 🇨🇦 Canada</option>
+                    <option>Ghana</option>
+                    <option>South Africa</option>
+                </select>
+            </div>
+            <div>
+                <input class="btnAction" type="submit" placeholder="Receive" value="Receive Cash" >
+                <input class="btnAction" type="submit" placeholder="Send" value="Send Cash" >
+            </div>
+        </form>
+    </section>
+</body>
+</html>
